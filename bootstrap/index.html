@@ -20,25 +20,24 @@
     <title>Hello, world!</title>
   </head></html>
   <body>
-    <!-- grid layout 2x3 -->
+    <!-- grid layout responsive -->
+    <!-- 576px and up : sm
+    768px and up : md
+    992px and up :lg
+    1200px and up : xl -->
     <div class="container">
+      <div class="row mb-2">
+        <div class="col-10 bg-primary">1</div>
+        <div class="col-2 bg-secondary">2</div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-10 col-md-2 bg-primary">1</div>
+        <div class="col-2 col-md-10 bg-secondary">2</div>
+      </div>
       <div class="row">
-        <div class="col-8 bg-primary">1</div>
-        <div class="col-4 bg-secondary">2</div>
+        <div class="col-10 bg-primary">1</div>
+        <div class="d-none d-md-block col-md-2 bg-secondary">2</div>
       </div>
-
-      <div class="row mt-3">
-        <div class="col-4 bg-danger">1</div>
-        <div class="col-6 bg-warningry">2</div>
-        <div class="col-2 bg-dark text-warning">3</div>
-      </div>
-
-      <div class="row mt-3">
-        <div class="col-4 bg-primary">1</div>
-        <div class="col-6 bg-info">2</div>
-        <div class="col-8 bg-dark text-warning">3</div>
-      </div>
-
     </div>
 
 
