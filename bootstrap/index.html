@@ -1,56 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
+    <title>Dotinstall App</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <style>
-      .box-container {
-        width: 100px;
-        height: 100px;
-        background: #ddd;
-        margin-bottom: 5px;
+      .cover {
+        background: url(img/bg.png);
+        background-size: cover;
       }
     </style>
-
-    <title>Hello, world!</title>
-  </head></html>
+  </head>
   <body>
-    <!-- grid layout responsive -->
-    <!-- 576px and up : sm
-    768px and up : md
-    992px and up :lg
-    1200px and up : xl -->
-    <div class="container">
-      <div class="row mb-2">
-        <div class="col-10 bg-primary">1</div>
-        <div class="col-2 bg-secondary">2</div>
+    <header>
+      <div class="cover text-white text-center py-5">
+        <h1 class="display-4 mb-4">Dotinstall App</h1>
+        <a href="" class="btn btn-primary btn-lg">Get It Now!</a>
       </div>
-      <div class="row mb-2">
-        <div class="col-10 col-md-2 bg-primary">1</div>
-        <div class="col-2 col-md-10 bg-secondary">2</div>
-      </div>
-      <div class="row">
-        <div class="col-10 bg-primary">1</div>
-        <div class="d-none d-md-block col-md-2 bg-secondary">2</div>
-      </div>
-    </div>
+    </header>
 
+    <main>
+      <section class="py-5">
+        <h2 class="text-center mb-5">Features</h2>
+        <div class="container">
+          <div class="mb-5 row">
+            <div class="col-sm-8">
+              <h3>Awesome1</h3>
+              <p>Hello. Hello.</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/phone.png" class="w-100 rounded-circle">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8 order-sm-2">
+              <h3>Awesome2</h3>
+              <p>Hello. Hello.</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="img/movie.png" class="w-100 rounded-circle">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-
-
-
-
-
+    <footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
